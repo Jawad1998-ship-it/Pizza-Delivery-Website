@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap');
+
+.container
+{
+    height:calc(100vh-100px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left
+{
+    flex:1;
+    align-items: center;
+    justify-content: center;
+}
+
+.right
+{   
+    flex:1;  
+}
+
+.items
+{
+    display:inline;
+}
+
+.item
+{   
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    font-size: 1rem;
+    font-weight: 900;
+    cursor: pointer;
+    border: 1px solid #d1411e;
+    padding:22px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.item:hover
+{
+    opacity: 0.75;
+}
+
+.pizzahut
+{
+    height:90px;
+    width:90px;
+    position: relative;
+    right:6px;
+    
+}
+
+.dominos
+{
+    height:90px;
+    width:90px;
+    position: relative;
+    left:3px;
+}
+
+.caesars
+{
+    height:90px;
+    width:90px;
+    position: relative;
+}
+
+.john
+{
+    height:90px;
+    width:90px;
+    position: relative;
+    left:8px;
+}
+
+.imgContainer
+{
+    position: relative;
+    border-radius:10px;
+}

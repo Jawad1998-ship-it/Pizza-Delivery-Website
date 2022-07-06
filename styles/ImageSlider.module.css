@@ -1,0 +1,50 @@
+.container
+{
+    height:calc(100vh - 80px);
+    background-color: #ebeb98 ;
+    overflow: hidden;
+    background-image: url("/img/background.jpg");
+
+}
+
+.arrowContainer
+{
+    position: absolute; /* so the images fill the container */
+    width:5%;
+    height:10%;
+    top:0;
+    bottom:0;
+    margin:auto;
+    cursor:pointer;
+    z-index: 99;
+}
+
+.wrapper
+{
+    width:300vw;
+    height:100%;
+    display: flex;
+    transition: all 1s ease-out;
+}
+
+
+.imgContainer
+{
+    width:100vw;
+    height: 100%;
+    position: relative;
+}
+
+.img
+{
+    border-radius: 40%;
+}
+
+@media screen and (max-width:480px)
+{
+    .container
+    {
+        height:80vh;
+    }
+}
+

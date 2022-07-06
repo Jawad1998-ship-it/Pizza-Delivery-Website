@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
+
+.container
+{
+    height: calc(100vh - 80px);
+    background-color: #222;
+    display:flex;
+}
+
+.item
+{
+    flex:1;
+    display: flex;
+    position: relative;
+}
+
+.card
+{   
+    display:block;
+    flex:1;
+    padding: 0 20px;
+    color:white;
+    align-items: center;
+    justify-content: center
+    ;
+}
+
+.title
+{
+    color: #b7903c;
+}
+
+.item:last-child
+{
+    flex:2;
+    padding:50px;
+    justify-content: space-between;
+}
+
+.text
+{
+    color:rgb(243, 221, 221)
+}
+
+.highlight
+{   
+    font-family: 'Rubik Moonrocks', cursive;
+    color: #d1411e;
+    font-size: 3rem;
+    margin-left:-3rem;
+    margin-top:0.5rem;
+}
+
+@media screen and (max-width:480px)
+{   
+    .container
+    {
+        height:auto;
+    }
+    .item:first-child
+    {
+        display: none;
+    }
+    .item{
+        flex-direction: column;
+    }
+    .highlight
+    {
+        text-align: center;
+    }
+
+    .title{
+        font-size: 30px;
+    }
+    .text
+    {
+        font-size: 20px;
+    }
+}
